@@ -17,7 +17,7 @@ Dự án được xây dựng theo kiến trúc Client-Server tách biệt, tuâ
 | 1 | **Nguyễn Bảo Khánh** | **Backend Lead** | - Khởi tạo Project, Setup Server.<br>- Xử lý Auth (`verify-token`) & Middleware.<br>- Quản lý Merge Request (MR). | `feature/backend-auth` |
 | 2 | **Đào Trung Phúc** | **Backend Logic** | - Xử lý File System (Multer, Path).<br>- Tạo logic lưu Metadata (`meta.json`).<br>- API Upload & Finish Session. | `feature/backend-storage` |
 | 3 | **Nguyễn Thị Thuỳ Dương** | **Frontend UI/UX** | - Cắt HTML/CSS/Responsive.<br>- Xử lý hiệu ứng Animation, Popup, Progress Bar.<br>- Thiết kế giao diện báo cáo. | `feature/frontend-ui` |
-| 4 | **Nguyễn Phạm Tuân** | **Frontend Core** | - Xử lý Webcam (MediaRecorder) & Mic.<br>- Tích hợp Speech-to-Text API.<br>- Viết hàm Fetch API kết nối Server. | `feature/frontend-logic` |
+| 4 | **Nguyễn Phạm Tuân** | **Frontend Core** | - Xử lý Webcam (MediaRecorder) & Mic.<br>- Viết hàm Fetch API kết nối Server. | `feature/frontend-logic` |
 
 ---
 
@@ -37,7 +37,6 @@ Dựa trên yêu cầu đồ án:
 - [x] **UX/UI:** Giao diện thân thiện, có thông báo lỗi (Error handling) và hướng dẫn người dùng.
 
 ### 3. Bonus (15pts)
-- [x] **Speech-to-Text:** Tự động chuyển đổi câu trả lời của ứng viên thành văn bản ngay thời gian thực.
 - [x] **Automated Pipeline:** Tự động tổng hợp dữ liệu khi kết thúc phiên.
 
 ---
