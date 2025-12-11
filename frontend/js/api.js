@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3000/api';
+const BASE_URL = '/api';
 
 export async function verifyTokenAPI(token) {
     try {
@@ -57,4 +57,5 @@ export async function finishSessionAPI(token, folder, count) {
     } catch (error) {
         return false;
     }
+
 }
